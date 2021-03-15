@@ -1,0 +1,30 @@
+<script type="text/javascript">  
+function validateForm()
+ {
+  var user=login.username.value;
+  var pass=login.password.value;
+  if(user == '')
+   {
+    document.getElementById('error').innerHTML=" Enter Username";
+    document.getElementById('error').style.color="red";
+   }
+  else if(pass == '')
+   {
+    document.getElementById('error').innerHTML=" Enter Password";
+	document.getElementById('error').style.color="red"; 
+   }
+  else  if((user != '')&& (pass != ''))
+   {
+	document.getElementById('error').innerHTML=" Successfully !";
+	document.getElementById('error').style.color="green";
+   }
+  }
+</script>
+<form name="login">
+<h1 id="error"></h1>
+<label>Username:</label>
+<input type="text" name="username" id="username" />
+<label>Password</label>
+<input type="password" name="password" id="password" />
+<input type="button" name="button"  value="Submit" onclick="validateForm()" />
+</form>

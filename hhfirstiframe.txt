@@ -1,0 +1,11 @@
+<! DOCTYPE HTML>
+<html>
+<head>
+<title>Home - Harbour Hotels.com</title>
+</head>
+<body bgcolor=333333>
+<div style="background-color:#222221;height:2%;width:100%;"></div>
+<div style="background-color:#222222;height:25%;width:100%;"><img src="Logo_1488818215796long.png" height=100% width=100%></img></div>
+<div style="background-color:#222221;height:2%;width:100%;"></div>
+</body>
+</html>

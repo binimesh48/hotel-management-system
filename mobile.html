@@ -1,0 +1,22 @@
+<html>
+<head>
+  <title>Mobile</title>
+</head>
+<body>
+  <form name="form">
+  <h2>Enter Mobile Number&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;
+    <input type="text" id="num"></input>
+<input type="button" value="Submit" onclick="validate()"/>
+  </form>
+  <script>
+  function validate()
+  {
+    var numb=form.num.value;
+    if((num == '')||(num.length !=10 )||(isNaN(num)))
+    {
+      alert("Error Enter Valid Mobile Number");
+    }
+  }
+  </script>
+</body>
+</html>

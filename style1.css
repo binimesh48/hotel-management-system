@@ -1,0 +1,33 @@
+@charset "utf-8";
+div
+{
+	opacity:0.85;
+}
+.videof,.videot
+{
+	width:100% !important;
+	height:50% !important;
+}
+.videocontainer
+{
+	position:absolute;
+	
+	height: 50%;
+	width: 100%;
+	overflow: visible;
+}
+.videocontainer video
+{
+	min-width: 100%;
+	min-height: 5%;
+}
+.videocontainerr
+{
+	position: absolute;
+	top:11px;
+	right: 10px;
+	left: 10px;
+	height: -webkit-calc(50%-18px);
+	height: calc(50%-18px);
+	display: block;
+}

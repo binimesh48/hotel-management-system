@@ -1,0 +1,9 @@
+<div style="background-color:#222222;height:auto;"class="divmain">
+			<div id="form">
+			<forms>
+				Enter your Name  <input type="text" maxlength="50" id="ip"></input>
+				<br>
+				Contact Number <input type="number" maxlength="10" id="ip"></input>
+			</forms>
+			</div>
+		</div>

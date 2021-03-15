@@ -1,0 +1,28 @@
+<div style=background-color:gray;height:2%;></div> 
+<hr color=red>
+
+
+<table>
+<tr>
+<td bgcolor="AQUA" height="40px" width="281px" align="center">
+aa
+</td>
+<td bgcolor="aqua" height="40px" width="281px" align="center">
+aa
+</td>
+<td bgcolor="aqua" height="40px" width="281px" align="center">
+aa
+</td>
+<td bgcolor="aqua" height="40px" width="281px" align="center">
+<font size="3">LOGIN</font>
+</td>
+<td bgcolor="aqua" height="40px" width="281px" align="center">
+<font size="3"><a href="grm.html">FEEDBACK</a></font>
+</td>
+</tr>
+</table>
+<script>
+function myf(x)
+{
+	open("grm.html");
+}
